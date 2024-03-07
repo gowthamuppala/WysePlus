@@ -8,7 +8,7 @@ for (var i = 0; i < loginElements.length; i++) {
         event.preventDefault(); // Prevent the default action of following the link
 
         // Define the URL of the login page
-        var url = "../home/login.html";
+        var url = "login.html";
 
         // Redirect to the login page
         window.location.href = url;
