@@ -1,6 +1,6 @@
 document.getElementById("vp1").addEventListener("click", function() {
     // URL of the page you want to open
-    var url = "../viewprofile/viewprofile1.html";
+    var url = "viewprofile1.html";
     
     // Open the new page in a new tab/window
     window.location.href=url;
@@ -8,7 +8,7 @@ document.getElementById("vp1").addEventListener("click", function() {
 
 document.getElementById("vp2").addEventListener("click", function() {
     // URL of the page you want to open
-    var url = "../viewprofile/viewprofile2.html";
+    var url = "viewprofile2.html";
     
     // Open the new page in a new tab/window
     window.location.href=url;
@@ -16,7 +16,7 @@ document.getElementById("vp2").addEventListener("click", function() {
 
 document.getElementById("vp3").addEventListener("click", function() {
     // URL of the page you want to open
-    var url = "../viewprofile/viewprofile3.html";
+    var url = "viewprofile3.html";
     
     // Open the new page in a new tab/window
     window.location.href=url;
@@ -24,21 +24,21 @@ document.getElementById("vp3").addEventListener("click", function() {
 
 document.getElementById("vp4").addEventListener("click", function() {
     // URL of the page you want to open
-    var url = "../viewprofile/viewprofile4.html";
+    var url = "viewprofile4.html";
     
     // Open the new page in a new tab/window
     window.location.href=url;
 });
 document.getElementById("vp5").addEventListener("click", function() {
     // URL of the page you want to open
-    var url = "../viewprofile/viewprofile5.html";
+    var url = "viewprofile5.html";
     
     // Open the new page in a new tab/window
     window.location.href=url;
 });
 document.getElementById("vp6").addEventListener("click", function() {
     // URL of the page you want to open
-    var url = "../viewprofile/viewprofile6.html";
+    var url = "viewprofile6.html";
     
     // Open the new page in a new tab/window
     window.location.href=url;
@@ -54,7 +54,7 @@ for (var i = 0; i < loginElements.length; i++) {
         event.preventDefault(); // Prevent the default action of following the link
 
         // Define the URL of the login page
-        var url = "../home/login.html";
+        var url = "login.html";
 
         // Redirect to the login page
         window.location.href = url;
