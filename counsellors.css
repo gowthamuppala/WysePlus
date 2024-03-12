@@ -81,7 +81,7 @@ nav a:hover {
 #main-section::before{ 
     content: "";
     position: absolute;
-    background: url('counsellorbg.jpg') ;
+    background: url('../images/doctors/counsellorbg.jpg') ;
     background-repeat: no-repeat; 
     background-position: bottom;
     background-size: cover; 
